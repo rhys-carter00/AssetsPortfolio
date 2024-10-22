@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <title>Rhys Carter Networth</title>
+    <meta charset= 'utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/> 
+   
+
+</head>
+
+<header>
+    <h1>Rhys Carter's Portfolio</h1>
+    <p id="quote">The journey to the Forbes list starts with a single step...</p>
+</header>
+
+<br>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Asset</th>
+            <th>Current Price</th>
+            <th>Quantity Held</th>
+            <th>Market Value</th>
+            <th>Cost Basis</th>
+            <th>Unrealized Gain/Loss</th>
+            <th>Allocation (%)</th>
+        </tr>
+        <tr>
+            <th>Cash</th>
+            <td>£1.00</td> <!-- Assuming Cash stays constant -->
+            <td>£8000</td>
+            <td>£8000</td>
+            <td>£8000</td>
+            <td>£0</td>
+            <td>100%</td> <!-- Assuming all money is in cash right now -->
+        </tr>
+        <tr>
+            <th>Bitcoin</th>
+            <td>£30,000</td>
+            <td>0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <th>SP500</th>
+            <td>£4500</td>
+            <td>0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <th>Tesla</th>
+            <td>£600</td>
+            <td>0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <th>Nvidia</th>
+            <td>£400</td>
+            <td>0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <th>Chinese Index</th>
+            <td>£500</td>
+            <td>0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>£0</td>
+            <td>0%</td>
+        </tr>
+
+    </table>
+    
+       
+  
+    <br>
+<hr>
+
+
+    <h2>Update Table</h2>
+<form id="dataForm">
+    <label for="insertAsset">Asset:</label>
+    <input type="text" id="insertAsset" name="insertAsset" required>
+    <label for="insertQuantity">Quantity:</label>
+    <input type="text" id="insertQuantity" name="insertQuantity" required>
+    <button type="submit">Add to Table</button>
+</form>
+
+<h2>Remove From Table</h2>
+<form id="dataForm">
+    <label for="col1">Asset:</label>
+    <input type="text" id="col1" name="col1" required>
+    <label for="col2">Quantity:</label>
+    <input type="text" id="col2" name="col2" required>
+    <button type="submit">Add to Table</button>
+</form>
+
+
+<div id="totalNetworth">
+</div>
+
+
+
+
+
+<br>
+<br>
+<hr></hr>
+
+<div>
+    <h3> Market News</h3> 
+    <div id="date"></div>
+</div>
+
+
+   
+</body>
+
+<script src="script.js"></script>

@@ -1,0 +1,47 @@
+
+
+*{
+    background-color: green;
+}
+
+
+h1{
+    color:greenyellow;
+    font-weight: bold;
+    width:50%;
+    margin: 0 auto;
+}
+#quote{
+    font-style: italic;
+    width:50%;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+#tableHeader{
+    color:black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th{
+   padding:10px;
+
+}
+
+td{
+    padding-left:40px;
+}
+
+th, td {
+    border: 1px solid black;}
+
+table{
+    margin: 0 auto;
+}
+
+h3, #date {
+    display: inline-block; /* Change both to inline-block */
+    vertical-align: middle; /* Align them vertically */
+    margin: 0; /* Remove default margins */
+    padding-left:20px
+}
